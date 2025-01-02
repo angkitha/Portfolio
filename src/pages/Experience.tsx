@@ -5,7 +5,7 @@ import vinylImageOne from '../images/vinyl.png';
 const Experience: React.FC = () => {
     /* Return Portion */
     return (
-        <div id = "experience" className= "section experience-main-container">
+        <div id = "experience" className= "experience-main-container">
 
             <div className = "experience-left-section">
                 <div className="record-chain">

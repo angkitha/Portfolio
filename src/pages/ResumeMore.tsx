@@ -27,7 +27,7 @@ const images = [
 
 const ResumeMore: React.FC = () => {
     return (
-        <div id="resume" className="section">
+        <div id="resume">
             <div className = "resumeMore-main-container">
                 
                 <div className = "resume-twoCardContainer">

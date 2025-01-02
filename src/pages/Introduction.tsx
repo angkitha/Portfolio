@@ -9,7 +9,7 @@ import me from '../images/me.jpg';
 
 const Introduction: React.FC = () => {
     return (
-    <div id="introduction" className = "section introduction-main-container">
+    <div id="introduction" className = "introduction-main-container">
     
 
       <div className="introduction-section-text">

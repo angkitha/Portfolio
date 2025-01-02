@@ -4,7 +4,7 @@ import FolderBackground from '../images/FolderBackground.png';
 
 const Projects: React.FC = () => {
     return (
-        <div id="projects" className="section projects-main-container">
+        <div id="projects" className="projects-main-container">
             <div className = "projects-navBar">
                 <div className = "projects-navText">
                 <a href="#introduction">

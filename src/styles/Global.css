@@ -1,25 +1,41 @@
 
 html, body {
   margin: 0;
-  font-size: 1rem;
   padding: 0;
+  font-size: 1rem;
   max-width: 100vw; 
   width: 100%; 
   overflow-x: hidden; 
   scroll-behavior: smooth;
-  background: #f3f4f6; /* Optional: light gray background for unused space */
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.7rem; /* Smaller font for smaller screens */
+  }
 }
 
 .page-wrapPrecaution {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(900px, 1fr)); /* Adjust to fit screen */
+  display: flex;
   flex-direction: column;
   align-items: column;
   overflow-x: hidden; 
+  width: 100%; 
 }
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust to fit screen */
+
+@media (min-width: 768px) {
+  .page-wrapPrecaution {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for wider screens */
+  }
+}
+
+.shared-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  width: 100%;
+  align-items: center;
+  text-align: center;
 }
 
 .IntroExpGradient {
@@ -31,7 +47,7 @@ html, body {
 }
 
 .section {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -40,9 +56,18 @@ html, body {
   text-align: center;
 }
 
+
 .introduction, .experience {
   color: white;
+  padding: 20px; /* Add padding for spacing */
+  width: 100%;
+  max-width: 1200px; /* Optional: Restrict max width for readability */
+  text-align: center;
 }
 .projects, .resume{
   color: black;
+  padding: 20px; /* Add padding for spacing */
+  width: 100%;
+  max-width: 1200px; /* Optional: Restrict max width for readability */
+  text-align: center;
 }

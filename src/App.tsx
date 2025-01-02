@@ -11,15 +11,25 @@ const App: React.FC = () => {
     <div>
       <div className="page-wrapPrecaution">
 
-        <div className="IntroExpGradient">
-          <Introduction />
-          <Experience />
-        </div>
+        <section className="IntroExpGradient">
+          <div className = "shared-container">
+            <div className = "section">
+            <Introduction />
+            </div>
+            <div className = "section">
+            <Experience />
+            </div>
+          </div>
+        </section>
 
-        <div className="ProjResMoreGradient">
-          <Projects />
-          <ResumeMore />
-        </div>
+        <section className="ProjResMoreGradient">
+          <div className = "section">
+            <Projects />
+            </div>
+            <div className = "section">
+            <ResumeMore />
+            </div>
+        </section>
         
       </div>
     </div>
