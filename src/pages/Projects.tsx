@@ -155,7 +155,7 @@ const Projects: React.FC = () => {
                         </div>
                     </div>
                     <div className = "projects-imageCard">
-                        <a href="https://drive.google.com/file/d/10LTy_wFm6PX57irwz237lQBWxZObY3ns/view?usp=sharing">
+                        <a href="https://swe-ucsd.netlify.app/">
                             <img src={FolderBackground} alt="Society of Women Engineers Website" className="projects-image"/>
                         </a>
                         <div className = "overlay-rectangle">
@@ -205,7 +205,7 @@ const Projects: React.FC = () => {
                         </div>
                     </div>
                     <div className = "projects-imageCard">
-                        <a href="https://drive.google.com/file/d/10LTy_wFm6PX57irwz237lQBWxZObY3ns/view?usp=sharing">
+                        <a href="https://github.com/angkitha/ReGen">
                             <img src={FolderBackground} alt="ReGen" className="projects-image"/>
                         </a>
                         <div className = "overlay-rectangle">
