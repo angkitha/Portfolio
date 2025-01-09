@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
                             <div className = "projectCard-description">
                             <ul>
                                     <li>Spearheaded group as project manager. Analyzed data on past earthquakes 
-                                        using <b>PyTorch</b> and was in charge of <b>cleaning data</b> for exploratory dat analysis 
+                                        using <b>PyTorch</b> and was in charge of <b>cleaning data</b> for exploratory data analysis 
                                         in preliminary stages of project </li>
                                     <li>Devised <b>interactive decision tree</b> model and <b>regression tree</b> model 
                                         to predict the magnitude of future earthquakes</li>
@@ -143,12 +143,9 @@ const Projects: React.FC = () => {
                             </div>
                             <div className = "projectCard-description">
                             <ul>
-                                    <li>Spearheaded group as project manager. Analyzed data on past earthquakes 
-                                        using <b>PyTorch</b> and was in charge of <b>cleaning data</b> for exploratory dat analysis 
-                                        in preliminary stages of project </li>
-                                    <li>Devised <b>interactive decision tree</b> model and <b>regression tree</b> model 
-                                        to predict the magnitude of future earthquakes</li>
-                                    <li>Achieved <b>81%</b> accuracy</li>
+                                    <li>Worked on 2 low-fidelity prototypes using <b>Figma </b> and gained core UI/UX skills. </li>
+                                    <li>Conducted <b>UI research</b> and reiterated to final <b>high fidelity</b> prototype.</li>
+                                    <li>Crafted <b>final case study</b>.</li>
                             </ul>
                             </div>
                         </div>
